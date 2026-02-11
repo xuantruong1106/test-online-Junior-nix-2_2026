@@ -14,7 +14,7 @@ Ví dụ:
 - Nếu chỉ tìm và thay thế như replace() hoặc đếm độc lập thì bị đếm sót
 - ví dụ: Input aw -> output: 2 (aw, w)
 ### idea
-- Duyệt một chiều + nhảy linh hoạt ( khi gặp các cụm như aw, aa, dd, ee, oo, ow ghi nhập là +1 sau đó nhảy 2 bước để duyệt tiếp, nếu chỉ có w thì +1 và nhày 1 bước, nếu không có thì nhảy 1 bước đến khi hết mảng)
+- Duyệt một chiều + nhảy linh hoạt ( khi gặp các cụm như aw, aa, dd, ee, oo, ow ghi nhập là +1 sau đó nhảy 2 bước để duyệt tiếp, nếu chỉ có w thì +1 và nhày 1 bước, nếu không có thì nhảy 1 bước đến khi hết)
 ### Solution
 1. Nhận vào chuỗi
 2. Kiểm tra rỗng -> loại bỏ khoảng trống(sử dụngn trim()) -> kiểm tra hợp lệ (chỉ nhận latinh không phân biệt hoa thường) -> chuyển toàn bộ về viết thường (dùng toLowerCase())
